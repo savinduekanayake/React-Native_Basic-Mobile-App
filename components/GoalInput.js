@@ -7,7 +7,6 @@ const GoalInput = props => {
     //just like a function
     const goalInputHandler = (enteredText) => {
         setEnteredGoal(enteredText);
-        console.log(enteredText);
     }
 
     //reset the text feild to empty after add the value

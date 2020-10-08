@@ -18,6 +18,9 @@ export default function App() {
   // }
 
   const addGoalHandler = (goalTitile) => {
+    if(goalTitile.length === 0){
+      return;
+    }
     // add new value to array
     setCourseGoals(currentGoals => [
       ...currentGoals, 
